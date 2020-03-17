@@ -14,6 +14,7 @@
 冒泡排序对n个数操作n-1轮，每轮找出最大值或最小值，
 每轮操作n-1次，因此时间复杂度为o(n^2)
 因为数据交换时需要交换空间，因此空间复杂度为o(1)
+参考：https://blog.csdn.net/weixin_41571493/article/details/81875088
 """
 def buble_sort(arr:list)->list:
     if not arr:
